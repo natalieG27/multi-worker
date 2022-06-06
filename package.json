@@ -1,0 +1,26 @@
+{
+  "name": "multi-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natalieG27/multi-worker.git"
+  },
+  "author": "Natalie Gurvich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natalieG27/multi-worker/issues"
+  },
+  "homepage": "https://github.com/natalieG27/multi-worker#readme",
+  "dependencies": {
+    "@types/node": "^17.0.40",
+    "csv-parse": "^5.1.0",
+    "csv-writer": "^1.6.0",
+    "typescript": "^4.7.3"
+  }
+}
